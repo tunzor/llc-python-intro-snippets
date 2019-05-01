@@ -7,6 +7,11 @@ from bs4 import BeautifulSoup
 # The page we want to get; it's the about us page that shows the team
 pageUrl = 'https://www.canadalearningcode.ca/our-team/'
 
+# Prints a message showing status
+print('-------------------------------------------------------------------------')
+print('Getting the list of Canada Learning Code team members...Hang on a second.')
+print('-------------------------------------------------------------------------')
+
 # Gets the HTML page and turns it into a variable BeautifulSoup can work with
 page = requests.get(pageUrl)
 soup = BeautifulSoup(page.text, 'html.parser')
