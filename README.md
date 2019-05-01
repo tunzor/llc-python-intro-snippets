@@ -2,9 +2,10 @@
 
 ### A collection of example code snippets for the Ladies Learning Code intro to python workshop
 
-These can be run in the terminal with `python [PROGRAM_NAME]` for example `python show-cursor-position.py`
+These can be run in the terminal with `python [PROGRAM_NAME]` for example `python ex1-show-cursor-position.py`
 
-###### Examples 1 and 2 use the pyautogui library
+###### Examples 1 and 2 use the pyautogui library and example 3 uses the requests and BeautifulSoup libraries
+###### These can be installed to your computer with [pip](https://pip.pypa.io/en/stable/)
 
 `ex1-show-cursor-position.py`
 
