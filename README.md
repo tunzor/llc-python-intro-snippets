@@ -6,7 +6,7 @@ These can be run in the terminal with `python [PROGRAM_NAME]` for example `pytho
 
 ---
 
-Examples 1 and 2 use the **pyautogui** library, example 3 uses the **requests** and **BeautifulSoup** libraries, and example 4 uses the **Flask** library
+Examples 1 and 2 use the **pyautogui** library, example 3 uses the **requests** and **BeautifulSoup** libraries, example 4 uses the **Flask** library, and example 5 uses the **pillow** library
 
 These can be installed on your computer with [pip](https://pip.pypa.io/en/stable/) (a Python package manager). If using pip on the command line you can install all of them with the requirements.txt file included here with the command
 `pip install -r requirements.txt`
@@ -39,5 +39,11 @@ This will get the about us team page from the CLC website and display all of the
 This will start a [Flask web server](https://palletsprojects.com/p/flask/) on your computer and make it accessible at http://localhost:5000
 
 It displays a simple webpage.
+
+---
+
+`ex5-image-manipulation.py`
+
+This will crop and resize the photo of the Toronto skyline in the ex5 folder and save the new copies in the same folder.
 
 ---
