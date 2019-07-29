@@ -27,3 +27,11 @@ The `chromeX` and `chromeY` variables should be changed to correspond to the loc
 `ex3-get-clc-team.py`
 
 This will get the about us team page from the CLC website and display all of the team members and their titles.
+
+---
+
+`ex4-flask-web-server.py`
+
+This will start a [Flask web server](https://palletsprojects.com/p/flask/) on your computer and make it accessible at http://localhost:5000
+
+---
