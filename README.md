@@ -44,6 +44,6 @@ It displays a simple webpage.
 
 `ex5-image-manipulation.py`
 
-This will crop and resize the photo of the Toronto skyline in the ex5 folder and save the new copies in the same folder.
+This will crop, resize, and rotate the photo of the Toronto skyline in the ex5 folder and save the new copies in the same folder.
 
 ---
