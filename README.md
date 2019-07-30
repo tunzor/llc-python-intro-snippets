@@ -6,7 +6,7 @@ These can be run in the terminal with `python [PROGRAM_NAME]` for example `pytho
 
 ---
 
-Examples 1 and 2 use the **pyautogui** library, example 3 uses the **requests** and **BeautifulSoup** libraries, example 4 uses the **Flask** library, and example 5 uses the **pillow** library
+Examples 1 and 2 use the **pyautogui** library, example 3 uses the **requests** and **BeautifulSoup** libraries, example 4 uses the **Flask** library, example 5 uses the **pillow** library, and example 6 uses the **requests** library
 
 These can be installed on your computer with [pip](https://pip.pypa.io/en/stable/) (a Python package manager). If using pip on the command line you can install all of them with the requirements.txt file included here with the command
 `pip install -r requirements.txt`
@@ -45,5 +45,11 @@ It displays a simple webpage.
 `ex5-image-manipulation.py`
 
 This will crop, resize, and rotate the photo of the Toronto skyline in the ex5 folder and save the new copies in the same folder.
+
+---
+
+`ex6-weather-api.py`
+
+This will use the [MetaWeather](https://www.metaweather.com) API to find the temperature and weather of a city for five days. More info about APIs can be found [here](https://zapier.com/learn/apis/chapter-1-introduction-to-apis/).
 
 ---
