@@ -1,3 +1,4 @@
+# Import the pillow library; this allows us to modify images
 from PIL import Image
 
 # Image source
@@ -14,3 +15,7 @@ croppedImage.save('ex5/croppedSkyline.jpg')
 # and save it as resizedAndCroppedSkyline.jpg
 resizedImage = croppedImage.resize((108, 429))
 resizedImage.save('ex5/resizedAndCroppedSkyline.jpg')
+
+# Rotate the resized image 32 degrees
+# the expand=True flag expands the size to hold entire rotated image
+rotatedImage = resizedImage.rotate(32, expand=True).save('ex5/rotatedSkyline.jpg')
