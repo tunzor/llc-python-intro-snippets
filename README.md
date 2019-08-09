@@ -53,3 +53,10 @@ This will crop, resize, and rotate the photo of the Toronto skyline in the ex5 f
 This will use the [MetaWeather](https://www.metaweather.com) API to find the temperature and weather of a city for five days. More info about APIs can be found [here](https://zapier.com/learn/apis/chapter-1-introduction-to-apis/).
 
 ---
+
+`ufo-sightings-with-csv-write.py`
+
+This is an example of the final exercise where we find all UFO sightings province-wide in 2015.
+It uses the `ufo-data.csv` dataset from the lecture notes.
+
+---
