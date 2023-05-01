@@ -1,5 +1,5 @@
 PyAutoGUI==0.9.47
 requests==2.22.0
 beautifulsoup4==4.8.0
-Flask==1.1.1
+Flask==2.3.2
 Pillow>=6.2.0
